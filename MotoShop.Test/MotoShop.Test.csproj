@@ -30,9 +30,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MotoShip\MotoShop.csproj" />
     <ProjectReference Include="..\MotoShop.BL\MotoShop.BL.csproj" />
     <ProjectReference Include="..\MotoShop.DL\MotoShop.DL.csproj" />
+    <ProjectReference Include="..\MotoShop\MotoShop.csproj" />
   </ItemGroup>
 
 </Project>

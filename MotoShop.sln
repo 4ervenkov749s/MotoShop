@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoShop", "MotoShip\MotoShop.csproj", "{36EA9B92-C12C-4A91-935A-60EC500D88B5}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoShop.BL", "MotoShop.BL\MotoShop.BL.csproj", "{131E4587-DC9A-4A73-86E1-5CC33A31C934}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoShop.DL", "MotoShop.DL\MotoShop.DL.csproj", "{B668A2E5-B04A-4E94-B67D-5876E210C505}"
@@ -13,16 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoShop.Models", "MotoShop
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MotoShop.Test", "MotoShop.Test\MotoShop.Test.csproj", "{E3B4B513-FF91-4DB6-B14F-0AB4B17603D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotoShop", "MotoShop\MotoShop.csproj", "{9A17341C-CCE3-4BF8-83CA-D4777F41A1F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36EA9B92-C12C-4A91-935A-60EC500D88B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36EA9B92-C12C-4A91-935A-60EC500D88B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36EA9B92-C12C-4A91-935A-60EC500D88B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36EA9B92-C12C-4A91-935A-60EC500D88B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{131E4587-DC9A-4A73-86E1-5CC33A31C934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{131E4587-DC9A-4A73-86E1-5CC33A31C934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{131E4587-DC9A-4A73-86E1-5CC33A31C934}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{E3B4B513-FF91-4DB6-B14F-0AB4B17603D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3B4B513-FF91-4DB6-B14F-0AB4B17603D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3B4B513-FF91-4DB6-B14F-0AB4B17603D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A17341C-CCE3-4BF8-83CA-D4777F41A1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A17341C-CCE3-4BF8-83CA-D4777F41A1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A17341C-CCE3-4BF8-83CA-D4777F41A1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A17341C-CCE3-4BF8-83CA-D4777F41A1F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
