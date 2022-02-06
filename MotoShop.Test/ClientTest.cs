@@ -96,7 +96,7 @@ namespace MotoShop.Test
         public void Client_GetById_DiscountCheck()
         {
             var clientId = 2;
-            var expectedDiscount = 9;
+            var expectedDiscount = 25;
 
             _clientRepository.Setup(x => x.GetById(clientId))
                 .Returns(Clients.FirstOrDefault(t => t.Id == clientId));

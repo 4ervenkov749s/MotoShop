@@ -79,7 +79,7 @@ namespace MotoShop.Test
         {
             //setup
             var employeeId = 2;
-            var expectedName = "Petio";
+            var expectedName = "Georgi";
 
             _employeeRepository.Setup(x => x.GetById(employeeId))
                 .Returns(Employees.FirstOrDefault(t => t.Id == employeeId));
